@@ -239,13 +239,53 @@ Day 5: WEB INTERFACE
 
 ---
 
-## 📖 References & Resources
+## � Learning Resources for Chapter 2
 
-- Pandas Documentation: https://pandas.pydata.org/docs/
-- BeautifulSoup Tutorial: https://www.crummy.com/software/BeautifulSoup/
-- Matplotlib Guide: https://matplotlib.org/stable/users/index.html
-- Streamlit Docs: https://docs.streamlit.io/
-- Inverted Index: https://en.wikipedia.org/wiki/Inverted_index
+### **Data Loading & Manipulation**
+- [Pandas Official Documentation](https://pandas.pydata.org/docs/)
+- [10 Minutes to Pandas](https://pandas.pydata.org/docs/user_guide/10min.html)
+- [Kaggle Learn - Pandas](https://www.kaggle.com/learn/pandas)
+- [Real Python - Working with Files](https://realpython.com/working-with-files-in-python/)
+
+### **Web Scraping**
+- [BeautifulSoup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- [Real Python - Web Scraping Guide](https://realpython.com/beautiful-soup-web-scraper-python/)
+- [Requests Library](https://requests.readthedocs.io/)
+- [Web Scraping Ethics](https://en.wikipedia.org/wiki/Web_scraping)
+
+### **Data Visualization & EDA**
+- [Matplotlib Official Guide](https://matplotlib.org/stable/users/index.html)
+- [Matplotlib Gallery](https://matplotlib.org/stable/gallery/index.html)
+- [Seaborn Tutorial](https://seaborn.pydata.org/tutorial.html)
+- [Kaggle Learn - Data Visualization](https://www.kaggle.com/learn/data-visualization)
+- [Exploratory Data Analysis](https://en.wikipedia.org/wiki/Exploratory_data_analysis)
+
+### **Feature Engineering**
+- [Real Python - Feature Scaling](https://realpython.com/normalize-data-with-pandas/)
+- [Scikit-learn Preprocessing](https://scikit-learn.org/stable/modules/preprocessing.html)
+- [Feature Engineering](https://en.wikipedia.org/wiki/Feature_engineering)
+
+### **Information Retrieval & Search**
+- [Stanford IR Book](https://nlp.stanford.edu/IR-book/)
+- [Wikipedia - Information Retrieval](https://en.wikipedia.org/wiki/Information_retrieval)
+- [Inverted Index Explained](https://en.wikipedia.org/wiki/Inverted_index)
+- [TF-IDF Algorithm](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
+- [ElasticSearch Tutorial](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)
+
+### **Streamlit & Web Frameworks**
+- [Streamlit Official Docs](https://docs.streamlit.io/)
+- [Streamlit Gallery](https://streamlit.io/gallery)
+- [Building Data Apps](https://docs.streamlit.io/library/get-started)
+
+---
+
+## 📖 Chapter-Specific Resources
+
+Each Part includes detailed "📚 Additional Resources" sections at the end with links to:
+- Official documentation
+- Tutorial websites
+- Interactive learning platforms
+- Research papers and academic resources
 
 ---
 
