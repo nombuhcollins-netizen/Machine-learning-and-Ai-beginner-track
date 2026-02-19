@@ -283,6 +283,35 @@ streamlit run app.py
 
 ---
 
-## 🔗 Navigation
+## � Additional Resources & Learning Links
+
+### **Streamlit Framework**
+- [Streamlit Official Docs](https://docs.streamlit.io/) - Complete official documentation
+- [Streamlit Gallery](https://streamlit.io/gallery) - 100+ app examples across domains
+- [Get Started with Streamlit](https://docs.streamlit.io/library/get-started) - Quick start guide
+
+### **Building Web Applications**
+- [Streamlit Components](https://docs.streamlit.io/library/components) - UI building blocks
+- [Advanced Streamlit](https://docs.streamlit.io/library/advanced-features) - Session state, caching, secrets
+- [Streamlit Best Practices](https://docs.streamlit.io/library/get-started/main-concepts) - Core concepts guide
+
+### **Deployment & Hosting**
+- [Streamlit Cloud](https://streamlit.io/cloud) - Free Streamlit hosting
+- [Deploying Apps](https://docs.streamlit.io/library/get-started/installation) - Deployment options
+- [Docker Containerization](https://docs.docker.com/get-started/) - Docker for app deployment
+
+### **Backend Frameworks Alternative**
+- [Flask Documentation](https://flask.palletsprojects.com/) - Lightweight Python web framework
+- [FastAPI](https://fastapi.tiangolo.com/) - Modern async web framework
+- [Django REST Framework](https://www.django-rest-framework.org/) - Full-featured web framework
+
+### **Frontend Integration**
+- [HTML/CSS for Data Apps](https://www.w3schools.com/) - Web fundamentals
+- [JavaScript Basics](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) - Client-side scripting
+- [REST APIs](https://en.wikipedia.org/wiki/Representational_state_transfer) - API design principles
+
+---
+
+## �🔗 Navigation
 
 **[← Back to Chapter 2](../README.md)** | **[Day 5 Exercises →](./Day-5-Exercises.md)**
