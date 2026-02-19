@@ -12,8 +12,8 @@ By the end of this chapter, you will:
 - ✅ Implement linear regression with gradient descent
 - ✅ Build classification models (Logistic Regression)
 - ✅ Construct decision trees and random forests
-- ✅ Cluster data with K-means and DBSCAN
 - ✅ Reduce dimensionality with PCA
+- ✅ Train reinforcement learning agents with Q-Learning
 - ✅ Understand when to use each algorithm
 
 ---
@@ -22,11 +22,11 @@ By the end of this chapter, you will:
 
 | Part | Topic | Core Concepts | Capstone |
 |------|-------|---------------|----------|
-| **1** | Linear Regression | Loss functions, Gradient descent, Optimization | Housing Price Predictor |
-| **2** | Classification | Logistic regression, Decision boundaries, Metrics | Binary Classifier |
-| **3** | Tree-Based Models | Decision trees, Ensembles, Random forests | Forest Classifier |
-| **4** | Clustering | K-means, DBSCAN, Silhouette analysis | Document Clustering |
-| **5** | Dimensionality Reduction | PCA, Variance explained, Visualization | ML Pipeline |
+| **1** | Linear Regression | Gradient descent, MSE, Sigmoid function | GPA Predictor |
+| **2** | Classification | Entropy, Gini Impurity, Decision Boundaries | Loan Approval System |
+| **3** | Decision Trees & Random Forests | Information Gain, Tree Pruning, Ensemble Methods | Market Basket Analysis |
+| **4** | Dimensionality Reduction (PCA) | Eigenvalues, Variance explained, Visualization | Data Compressor |
+| **5** | Reinforcement Learning (Q-Learning) | Agents, Environments, Rewards, Q-Learning | Campus Navigation Simulation |
 
 ---
 
@@ -34,11 +34,11 @@ By the end of this chapter, you will:
 
 **Progressive Complexity:** Build algorithms from first principles
 
-- **Part 1:** Understand optimization (gradient descent)
-- **Part 2:** Extend to classification
-- **Part 3:** Ensemble methods (combine weak learners)
-- **Part 4:** Unsupervised learning
-- **Part 5:** Model selection and pipelines
+- **Part 1:** Understand optimization (gradient descent) & linear prediction
+- **Part 2:** Extend to classification (binary prediction with probabilities)
+- **Part 3:** Tree-based learning (decision trees & ensembles)
+- **Part 4:** Unsupervised learning (dimensionality reduction)
+- **Part 5:** Decision-making under uncertainty (reinforcement learning)
 
 **Key Principle:** Math → Code → Scikit-learn comparison
 
@@ -59,10 +59,10 @@ Chapter-3-ML-Algorithms/
 │   ├── Part-3-Decision-Trees.md
 │   └── Part-3-Exercises.md
 ├── Part-4/
-│   ├── Part-4-Clustering.md
+│   ├── Part-4-Dimensionality-Reduction.md
 │   └── Part-4-Exercises.md
 └── Part-5/
-    ├── Part-5-Dimensionality-Reduction.md
+    ├── Part-5-Reinforcement-Learning.md
     └── Part-5-Exercises.md
 ```
 
@@ -72,33 +72,38 @@ Chapter-3-ML-Algorithms/
 
 ### By Part 1 (Linear Regression)
 - Understand cost functions (MSE)
-- Implement gradient descent
+- Implement gradient descent from scratch
 - Build simple linear models
 - Tune learning rate and iterations
+- Create GPA predictor model
 
 ### By Part 2 (Classification)
-- Extend regression to classification
 - Implement logistic regression
 - Calculate decision boundaries
+- Understand entropy and Gini impurity
 - Evaluate with precision/recall/F1
+- Build loan approval classifier
 
-### By Part 3 (Tree-Based)
+### By Part 3 (Decision Trees & Random Forests)
 - Build decision trees from scratch
-- Understand feature importance
-- Implement random forests (bagging)
-- Compare with scikit-learn
+- Understand information gain
+- Implement tree pruning
+- Build random forests (bagging)
+- Analyze feature importance
 
-### By Part 4 (Clustering)
-- Implement K-means algorithm
-- Determine optimal K (elbow method)
-- Understand DBSCAN
-- Evaluate clustering quality
+### By Part 4 (Dimensionality Reduction - PCA)
+- Implement PCA from scratch
+- Calculate eigenvalues and eigenvectors
+- Reduce high-dimensional data
+- Visualize with scree plots
+- Build data compressor
 
-### By Part 5 (Dimensionality Reduction)
-- Implement PCA
-- Reduce data dimensions
-- Visualize high-dimensional data
-- Build complete ML pipelines
+### By Part 5 (Reinforcement Learning - Q-Learning)
+- Understand Markov Decision Processes (MDPs)
+- Implement Q-Learning algorithm
+- Build agents and environments
+- Master exploration vs. exploitation
+- Train navigation agent with rewards
 
 ---
 
@@ -132,17 +137,17 @@ Matplotlib     # Plotting results
    - Binary/multiclass classification
    - Predicting customer categories
 
-3. **Decision Tree Classification** (Part 3)
+3. **Decision Trees for Classification** (Part 3)
    - Interpretable models
-   - Feature importance analysis
+   - Feature importance analysis from tree splits
 
-4. **Document Clustering** (Part 4)
-   - Grouping similar documents
-   - Customer segmentation
+4. **High-Dimensional Data Compression** (Part 4)
+   - Reducing dimensionality for visualization
+   - Feature extraction from image/text data
 
-5. **Feature Extraction** (Part 5)
-   - Reducing dimensionality
-   - Visualization of complex data
+5. **Autonomous Decision-Making** (Part 5)
+   - Agent navigation and pathfinding
+   - Robotics and game AI
 
 ---
 
@@ -190,14 +195,14 @@ PART 1: LINEAR REGRESSION
 PART 2: CLASSIFICATION (Extends Part 1)
   Logistic Function → Cross-Entropy Loss → Decision Boundary
   
-PART 3: TREE-BASED MODELS
-  Information Gain → Tree Construction → Ensemble (Random Forest)
+PART 3: DECISION TREES & RANDOM FORESTS
+  Information Gain → Tree Construction → Ensemble Methods
   
-PART 4: CLUSTERING (Unsupervised)
-  Distance Metrics → K-means Algorithm → Cluster Validation
-  
-PART 5: DIMENSIONALITY REDUCTION
+PART 4: DIMENSIONALITY REDUCTION (PCA)
   Covariance Matrix → Eigendecomposition → PCA Projection
+  
+PART 5: REINFORCEMENT LEARNING (Q-Learning)
+  Agents → Environments → Rewards → Bellman Equation → Q-Updates
 ```
 
 ---
@@ -211,30 +216,31 @@ PART 5: DIMENSIONALITY REDUCTION
 
 ## 💬 Key ML Principles
 
-1. **Supervised vs Unsupervised**
-   - Parts 1-3: Supervised (labels provided)
-   - Part 4: Unsupervised (no labels)
-   - Part 5: Feature extraction (both)
+1. **Learning Paradigms**
+   - Parts 1-3: Supervised Learning (with labeled data)
+   - Part 4: Unsupervised Learning (PCA for feature extraction)
+   - Part 5: Reinforcement Learning (learn from interaction)
 
 2. **Bias-Variance Tradeoff**
    - Complex models overfit
    - Simple models underfit
-   - Find balance
+   - Find balance through validation
 
 3. **Model Evaluation**
    - Train/test split essential
-   - Use appropriate metrics
+   - Use appropriate metrics per task
    - Cross-validation for robustness
 
-4. **Feature Importance**
-   - Not all features equal
-   - Proper scaling needed
-   - Feature selection crucial
+4. **Feature Engineering**
+   - Not all features equally important
+   - Proper scaling and normalization needed
+   - Feature selection and reduction crucial
 
 5. **Algorithm Selection**
-   - Linear data → linear models
-   - Complex patterns → trees/forests/neural nets
-   - High dimensions → dimensionality reduction
+   - Linear data → linear models (Part 1)
+   - Complex patterns → trees/forests (Part 3)
+   - High dimensions → PCA (Part 4)
+   - Decision-making → RL agents (Part 5)
 
 ---
 
