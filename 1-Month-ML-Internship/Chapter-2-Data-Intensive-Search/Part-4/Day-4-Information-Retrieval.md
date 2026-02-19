@@ -348,6 +348,34 @@ for result in results:
 
 ---
 
-## 🔗 Navigation
+## � Additional Resources & Learning Links
+
+### **Information Retrieval Fundamentals**
+- [Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/) - Stanford's official IR textbook (free online)
+- [IR Concepts Overview](https://en.wikipedia.org/wiki/Information_retrieval) - Wikipedia comprehensive guide
+- [Search Engine Architecture](https://www.freecodecamp.org/news/search-engine-basics/) - FreeCodeCamp architecture guide
+
+### **Inverted Indexes & Indexing**
+- [Inverted Index Explained](https://en.wikipedia.org/wiki/Inverted_index) - Wikipedia definition and examples
+- [Building Search Indexes](https://www.elastic.co/guide/en/elasticsearch/guide/current/inverted-index.html) - Elasticsearch guide with visuals
+- [Text Indexing Techniques](https://nlp.stanford.edu/IR-book/pdf/05sch.pdf) - Stanford PDF on indexing strategies
+
+### **Ranking & Relevance**
+- [TF-IDF Algorithm](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) - Wikipedia with mathematical foundations
+- [BM25 Ranking Function](https://en.wikipedia.org/wiki/Okapi_BM25) - Advanced ranking algorithm
+- [Relevance in Search](https://www.searchenginejournal.com/relevance-ranking-factors/323387/) - SEJ ranking factors
+
+### **Search Technologies**
+- [Elasticsearch Official Docs](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html) - Production search engine
+- [Whoosh Full-Text Search](https://whoosh.readthedocs.io/) - Python search library
+- [Solr Apache Search](https://solr.apache.org/) - Enterprise search platform
+
+### **Query Processing & Optimization**
+- [Query Understanding](https://nlp.stanford.edu/IR-book/pdf/13app.pdf) - Stanford PDF on query analysis
+- [Optimization of Search](https://en.wikipedia.org/wiki/Search_engine_optimization) - Search optimization techniques
+
+---
+
+## �🔗 Navigation
 
 **[← Back to Chapter 2](../README.md)** | **[Day 4 Exercises →](./Day-4-Exercises.md)**
