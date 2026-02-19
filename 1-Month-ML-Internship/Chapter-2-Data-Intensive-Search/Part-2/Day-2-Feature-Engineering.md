@@ -466,6 +466,36 @@ print(f"ML-Ready X shape: {X.shape}")
 
 ---
 
-## 🔗 Navigation
+## � Additional Resources & Learning Links
+
+### **Feature Scaling & Normalization**
+- [Scikit-learn Preprocessing Guide](https://scikit-learn.org/stable/modules/preprocessing.html) - Official feature scaling documentation
+- [StandardScaler vs MinMaxScaler](https://www.kaggle.com/code/rtatman/standardscaler-vs-minmaxscaler) - Kaggle comparison tutorial
+- [Feature Scaling Tutorial](https://realpython.com/instance-normalization-cnn/) - Real Python normalization guide
+
+### **Categorical Encoding**
+- [One-Hot Encoding Explained](https://en.wikipedia.org/wiki/One-hot) - Wikipedia overview with visuals
+- [Label vs One-Hot Encoding](https://www.kdnuggets.com/2021/05/categorical-encoding.html) - KDnuggets comparison
+- [Pandas get_dummies()](https://pandas.pydata.org/docs/reference/api/pandas.get_dummies.html) - Official Pandas encoding function
+- [Category Encoders Library](https://contrib.scikit-learn.org/category_encoders/) - Advanced categorical encoding techniques
+
+### **Scikit-learn Pipelines**
+- [Creating ML Pipelines](https://scikit-learn.org/stable/modules/pipeline.html) - Official pipeline documentation
+- [Pipeline Examples](https://github.com/scikit-learn/scikit-learn/tree/main/examples) - GitHub code examples
+- [Why Use Pipelines](https://machinelearningmastery.com/pipelines-in-scikit-learn/) - Machine Learning Mastery guide
+
+### **Feature Engineering Best Practices**
+- [Feature Engineering for ML](https://developers.google.com/machine-learning/crash-course/feature-engineering/video-lecture) - Google's ML Crash Course
+- ["Tidy Data" Philosophy](https://vita.had.co.nz/papers/tidy-data.pdf) - Essential data organization paper
+- [Feature Engineering Course](https://www.kaggle.com/learn/feature-engineering) - Kaggle Learn interactive course
+
+### **Handling Missing Data**
+- [pandas.isna() Documentation](https://pandas.pydata.org/docs/reference/api/pandas.isna.html) - Detecting missing values
+- [Missing Data Strategies](https://scikit-learn.org/stable/modules/impute.html) - Scikit-learn imputation methods
+- [Handling Missing Data](https://www.analyticsvidhya.com/blog/2016/07/missing-value-imputation-one-of-the-most-important-steps-in-data-preprocessing/) - Analytics Vidhya guide
+
+---
+
+## �🔗 Navigation
 
 **[← Back to Chapter 2](../README.md)** | **[Day 2 Exercises →](./Day-2-Exercises.md)**
