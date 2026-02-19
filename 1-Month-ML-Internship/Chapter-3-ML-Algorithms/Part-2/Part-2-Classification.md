@@ -299,6 +299,35 @@ class SpamClassifier:
 
 ---
 
-## 🔗 Navigation
+## � Additional Resources & Learning Links
+
+### **Classification Algorithms**
+- [Classification (Wikipedia)](https://en.wikipedia.org/wiki/Statistical_classification) - Overview of classification in machine learning
+- [Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression) - Mathematical foundations
+- [Support Vector Machines](https://en.wikipedia.org/wiki/Support_vector_machine) - SVM theory and applications
+
+### **Scikit-learn Classification**
+- [Scikit-learn Classifiers](https://scikit-learn.org/stable/modules/classification.html) - Complete classification module docs
+- [Logistic Regression API](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) - Implementation and parameters
+- [SVM API](https://scikit-learn.org/stable/modules/svm.html) - Support vector machines
+
+### **Classification Metrics**
+- [Confusion Matrix](https://en.wikipedia.org/wiki/Confusion_matrix) - Wikipedia reference with formulas
+- [Precision and Recall](https://en.wikipedia.org/wiki/Precision_and_recall) - Evaluation metrics explained
+- [ROC and AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic) - ROC curves for classification
+
+### **Decision Boundaries**
+- [Decision Boundaries in ML](https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html) - Visualizing decision regions
+- [Linear vs Non-linear](https://en.wikipedia.org/wiki/Linear_separability) - Linear separability concepts
+- [Kernel Methods](https://en.wikipedia.org/wiki/Kernel_method) - Non-linear decision boundaries
+
+### **StatQuest Videos**
+- [Logistic Regression](https://www.youtube.com/watch?v=yIYKR4sgC22) - Josh Starmer visual explanation
+- [SVM Clearly Explained](https://www.youtube.com/watch?v=efR1C6CvhmE) - StatQuest SVM tutorial
+- [ROC and AUC](https://www.youtube.com/watch?v=4jRBRDbJemM) - Classification evaluation
+
+---
+
+## �🔗 Navigation
 
 **[← Back to Chapter 3](../README.md)** | **[Part 2 Exercises →](./Part-2-Exercises.md)**
