@@ -1,15 +1,16 @@
 # 08: Loops - Repeating Code
 
-**Duration:** 50 minutes | **Difficulty:** Beginner | **Key Skill:** Iteration with for and while
+**Duration:** 50 minutes | **Difficulty:** Beginner | **Key Skill:** Iteration patterns
 
 ---
 
 ## í¾¯ What You'll Learn
 
-- for loops
-- while loops
-- break and continue
+- for loops (iterating over sequences)
+- while loops (condition-based repetition)
+- break and continue statements
 - range() function
+- Nested loops
 
 ---
 
@@ -18,63 +19,89 @@
 ### Basic For Loop
 
 \`\`\`python
-# Loop through a list
+# Iterate over a list
 fruits = ["apple", "banana", "orange"]
 for fruit in fruits:
     print(fruit)
 
-# Loop through a range
+# Iterate over a string
+for char in "Python":
+    print(char)
+\`\`\`
+
+### Using range()
+
+\`\`\`python
+# range(stop) - 0 to stop-1
 for i in range(5):
     print(i)  # 0, 1, 2, 3, 4
+
+# range(start, stop)
+for i in range(2, 5):
+    print(i)  # 2, 3, 4
+
+# range(start, stop, step)
+for i in range(0, 10, 2):
+    print(i)  # 0, 2, 4, 6, 8
 \`\`\`
 
-### range() Function
+### Break & Continue
 
 \`\`\`python
-range(5)           # 0, 1, 2, 3, 4
-range(2, 5)        # 2, 3, 4
-range(0, 10, 2)    # 0, 2, 4, 6, 8
-\`\`\`
-
-## í³š While Loops
-
-\`\`\`python
-count = 0
-while count < 5:
-    print(count)
-    count += 1
-\`\`\`
-
-## í´„ Break & Continue
-
-\`\`\`python
-# Break - exit loop
+# break - exit loop early
 for i in range(10):
     if i == 5:
         break
     print(i)  # 0, 1, 2, 3, 4
 
-# Continue - skip this iteration
+# continue - skip to next iteration
 for i in range(5):
     if i == 2:
         continue
     print(i)  # 0, 1, 3, 4
 \`\`\`
 
+## í³š While Loops
+
+\`\`\`python
+# Repeat while condition is True
+count = 0
+while count < 3:
+    print(count)
+    count += 1
+
+# Infinite loop (be careful!)
+# while True:
+#     print("This repeats forever")
+#     break  # Need a way to exit
+\`\`\`
+
 ---
 
 ## í·  ML Context
 
-### Processing Datasets
+### Processing Dataset
 
 \`\`\`python
-# Train model
-epochs = 100
-for epoch in range(epochs):
-    # Train...
-    loss = calculate_loss()
-    if loss < threshold:
-        break
+scores = [85, 92, 78, 95, 88]
+
+total = 0
+for score in scores:
+    total += score
+
+average = total / len(scores)
+print(f"Average: {average}")
 \`\`\`
+
+---
+
+## í´‘ Key Takeaways
+
+âœ… for loops iterate over sequences
+âœ… while loops repeat based on conditions
+âœ… break exits loop early
+âœ… continue skips to next iteration
+âœ… range(start, stop, step) generates sequences
+âœ… Loops are essential for processing datasets
 
 ---
